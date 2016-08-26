@@ -1,0 +1,14 @@
+/*estilos personalizados*/
+
+.carousel{
+    background: #666;
+    height: 300px;
+}
+.carousel .carousel-inner{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+}
+.gallery{
+	
+}

@@ -1,0 +1,390 @@
+.menu{
+  background-color: #F2F2F2; 
+  height: auto;  
+  padding: 0px 10px 0px;
+}
+#logo{
+  text-align: center;
+  padding: 10px 0px 0px;
+}
+.desplegable{
+  padding: 10px 10px 10px;
+}
+
+
+.hero { 
+  background: url(../../assets/imagenes/a.jpg) no-repeat; 
+  width: 100%;
+  background-size: cover;
+  height: 450px;
+}
+.collapse > ul > li{
+  border-color: Red;
+  border-left: 2px solid #C3BDBD;
+}
+
+.nav > li > a{
+  color: Black;
+  padding: 0px 25px 0px;
+  line-height: 78px;    
+}
+.navbar-default .navbar-nav > li > a {
+  color: Black;
+}
+.navbar-default .navbar-brand {
+  color: Black
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #E6b706;
+  color: White;
+ }
+
+.active {
+  background: #E6b706;
+}
+
+.content {
+  font-family: Lato;
+  background: #E6b706;
+  color: #fff;
+  padding-top: 25px;
+  
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+}
+
+.triangle{
+  box-sizing: content-box;
+  width: 50%; 
+  height: 0;
+  padding-left:50%;
+  padding-top: 5%; 
+  overflow: hidden;
+
+}
+.triangle div {
+  width: 0px;
+  height: 0px;
+  margin-left: -1000px;
+  margin-top: -100px;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-top: 100px solid #E6b706;
+}
+
+.icons{  
+  height: auto;
+  padding: 50px 0px 0px 50px;    
+  margin-left: 11%;  
+  margin-right: 14%;    
+  overflow: hidden;
+}
+.icons p{
+    font-size: 16px;
+    color: #C3BDBD;
+}
+.content1 {     
+  height: auto;
+  background: #F2F2F2; 
+}
+
+.triangle1{
+  box-sizing: content-box;
+  width: 50%; 
+  height: 0;
+  padding-left:50%;
+  padding-top: 5%; 
+  overflow: hidden;
+  
+}
+.triangle1 div {
+  width: 0px;
+  height: 0px;
+  margin-left: -1000px;
+  margin-top: -100px;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-top: 100px solid White;
+}
+.content2 {
+  font-family: Lato;
+  background: #F2F2F2;
+  color: Black;
+  padding-top: 30px;
+  text-align: center;
+  height: auto;
+}
+.content2 .carousel{
+    padding: 30px;
+    height: 300px;
+}
+.content2 .carousel .carousel-inner{
+    width: 1000px;
+    height: 220px;
+    margin: 0 auto;    
+    background: transparent;   
+}
+.carousel-inner > .active{
+    display: block;
+}
+.carousel-inner > .item{
+  transition: 0.3s ease-in-out left;
+  /*transition: left 0.1ms ease-in-out 0s;*/
+}
+.active .left{
+  left:-33%;
+}
+.active .right .left {
+  left:33%;
+    }
+.next{
+  left: 33%;
+}
+.prev{
+  left: -33%;
+}
+.left{
+  background: transparent; ;
+}
+.right{
+  background: transparent;
+}
+.carousel-inner > .carousel-control{
+  background: transparent;
+  opacity: 0.1;
+  height: 280px;
+}
+.carousel-control.right {
+  background: transparent;
+  
+}
+.carousel-control.left {
+  background: transparent;
+  
+}
+.carousel-control i{
+  color: Black;
+  /*height: 220px;
+  margin: 25px;*/
+}
+
+.triangle2{
+  box-sizing: content-box;
+  width: 50%; 
+  height: 0;
+  padding-left:50%;
+  padding-top: 5%; 
+  overflow: hidden;
+  
+}
+.triangle2 div {
+  width: 0px;
+  height: 0px;
+  margin-left: -1000px;
+  margin-top: -100px;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-top: 100px solid #F2F2F2;
+}
+
+.content3 {
+  font-family: Lato;
+  background: White;
+  color: Black;
+  padding-top: 30px;
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+}
+
+.content4 {     
+  height: auto;
+  background: #E6b706; 
+}
+
+.triangle3{
+  box-sizing: content-box;
+  width: 50%; 
+  height: 0;
+  padding-left:50%;
+  padding-top: 5%; 
+  overflow: hidden;
+  
+}
+.triangle3 div {
+  width: 0px;
+  height: 0px;
+  margin-left: -1000px;
+  margin-top: -100px;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-top: 100px solid White;
+}
+
+.content5 {
+  font-family: Lato;
+  background:   #E6b706;
+  color: White;
+  padding-top: 30px;
+  height: auto;
+
+}
+.icons5{  
+  height: auto;
+  overflow: hidden;
+  padding: 20px 0px 30px 10px;   
+  text-align: center;
+
+}
+
+.img-responsive{
+  display: -moz-inline-box;
+}
+ 
+.footer{
+  color: White;
+  height: auto;
+  overflow: hidden;
+  background: Black;  
+  padding: 10px 20px 20px;
+  margin: 0px 0px 0px 
+}
+
+.pie{ 
+  height: auto;
+  text-align: left;
+  padding: 20px 10px 60px 10px;
+  overflow: hidden;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;   
+}
+
+.footer .seccionpie1 {
+    padding: 10px 0px 0px 5px;
+    width: 28%;   
+    margin: 0px 3% 0px 1%;
+    height: 170px;  
+}
+
+.footer .seccionpie2 {
+    padding: 10px 0px 0px 10px;
+    width: 20%;
+    margin: 0px 3% 0px 1%;
+    height: 170px;
+}
+.footer .seccionpie3 {
+    float: left;
+    width: 33.3333%;
+    min-height: 170px;
+    min-width: 140px;
+    padding: 10px 0px 0px 55px;
+}
+
+.footer ul {
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer .seccionpie2 li {
+    border-bottom: 1px solid #B4ACAC;
+    margin-bottom: 3px;
+    padding: 2px 0px 2px 5px;
+}
+.glyphicon{
+  color: #FFD700;
+}
+a{
+  color: White;
+}
+
+@media screen and (max-width: 768px){
+  .content {    
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    height: auto;
+    overflow: hidden;
+  }
+  .icons{  
+    height: auto;
+    padding: 30px 0px 10px 10px;    
+    overflow: hidden;
+  }
+  .icons5{  
+    height: 310px;
+    padding: 20px 10px 0px 10px;       
+  }
+  .icons5 h3{
+    font-size: 14px;
+  }
+  .icons5 .col-xs-4 {    
+    margin-left: 0px;
+  }
+  .icons5 .col-xs-5 {
+    width: 34%;
+    margin-left: 30px;
+  }
+  .footer{    
+    width: 100%;
+  }
+
+  .pie{ 
+    overflow: hidden;
+    width: 83%;
+    padding: 0px 0px 0px 1.96%;
+  }
+
+  .footer .seccionpie1 {
+    font-size: 0.875em;    
+    height: auto;
+    min-width: 180px;
+    overflow: hidden;
+     padding: 0px 0px 0px 2px;
+  }
+  .footer .seccionpie2 {
+    font-size: 0.875em;
+    height: auto;
+    overflow: hidden;
+    width: 180px;
+    padding: 0px 0px 0px 2px;
+    
+  } 
+
+  .footer .seccionpie3 {
+    font-size: 0.875em;
+    height: auto;
+    overflow: hidden;
+    width: 190px;
+    padding: 0px 0px 0px 2px;
+  } 
+  .item{      
+    transition: 0.1s ease-in-out all;
+    backface-visibility: visible;
+    transform: none!important;
+  }
+  .content2{
+    height: 280px;
+    overflow: hidden;
+  }
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .carousel-control{
+    height: 80px;
+    margin: 10px;
+  }
+  .content2 .carousel .carousel-inner{
+    margin: 0px 0px 0px 30px;
+  }
+
+}
+
+
+
+    
+
